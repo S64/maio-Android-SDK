@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         applicationId "jp.maio.sdk.android.sample"
         minSdkVersion 16
-        targetSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -28,6 +28,6 @@ dependencies {
     
     compile 'com.maio:android-sdk:1.1.4@aar'
 
-    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:appcompat-v7:28.0.0'
     compile 'com.google.android.gms:play-services-ads:+' // 11.0.4
 }
