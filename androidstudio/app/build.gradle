@@ -29,5 +29,5 @@ dependencies {
     compile 'com.maio:android-sdk:1.1.4@aar'
 
     compile 'com.android.support:appcompat-v7:25.2.0'
-    compile 'com.google.android.gms:play-services-ads:+'
+    compile 'com.google.android.gms:play-services-ads:+' // 11.0.4
 }
