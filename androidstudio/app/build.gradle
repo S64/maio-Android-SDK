@@ -17,12 +17,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    repositories {
+        maven { url 'https://imobile-maio.github.io/maven' }
+    }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile project(':maio')
+    
+    compile 'com.maio:android-sdk:1.1.4@aar'
+
     compile 'com.android.support:appcompat-v7:23.0.0'
     compile 'com.google.android.gms:play-services-ads:8.4.0'
 }
